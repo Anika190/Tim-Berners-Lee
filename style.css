@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+#welcome{
+    background-color: blueviolet;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    height: 800px;
+    display: table;
+    height: 100%;
+    width: 100%;
+    color: bisque;
+}
+
+.profile{
+    width: 175px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.parallax-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#bio{
+    text-align: center;
+    padding: 50px;
+}
+    .line{
+    height:7px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+    
+}
+
+.menu{
+    color: aquamarine;
+    font-size: 22px;
+    list-style: none;
+    z-index: 10;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.links{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.links:hover{
+    font-size: 28px;
+    background-color:deeppink;
+}
+
+p{
+    max-width: 500px;
+    margin: 25px auto;
+    line-height: 1.5;
+}
+#name{
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
